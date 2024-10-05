@@ -1,0 +1,121 @@
+:root {
+    --primary-color: #367d26;   /* Verde escuro */
+    --secondary-color: #d3f750; /* Amarelo claro */
+    --accent1-color: #2cdb2e;   /* Verde brilhante */
+    --accent2-color: #38909a;   /* Azul esverdeado */
+    --text-color: #333333;      /* Cor do texto padrão */
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    background-color: var(--secondary-color); /* Cor de fundo */
+}
+
+header {
+    background-color: var(--primary-color); /* Cor primária para o cabeçalho */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: var(--accent1-color); /* Usando a cor de destaque 1 para os links */
+    text-decoration: none;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    color: var(--accent2-color); /* Mudar cor no hover */
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Amarante', cursive;
+    color: var(--accent2-color); /* Usando cor de destaque 2 para o título */
+    font-size: 3em;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.happy-client {
+    float: right;
+    width: 100px;
+    margin-left: 10px;
+}
+
+section {
+    padding: 20px;
+    background-color: var(--accent1-color);
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+section h2 {
+    color: var(--primary-color); /* Usando a cor primária para os subtítulos */
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    font-family: 'Reenie Beanie', cursive;
+}
+
+.sociallinks {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.sociallinks a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.sociallinks img {
+    width: 30px;
+}
+
