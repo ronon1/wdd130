@@ -1,20 +1,20 @@
 :root {
-    --primary-color: #367d26;   /* Verde escuro */
-    --secondary-color: #d3f750; /* Amarelo claro */
-    --accent1-color: #2cdb2e;   /* Verde brilhante */
-    --accent2-color: #38909a;   /* Azul esverdeado */
-    --text-color: #333333;      /* Cor do texto padrão */
+    --primary-color: #367d26;
+    --secondary-color: #d3f750;
+    --accent1-color: #2cdb2e;
+    --accent2-color: #38909a;
+    --text-color: #333333;
 }
 
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     color: var(--text-color);
-    background-color: var(--secondary-color); /* Cor de fundo */
+    background-color: var(--secondary-color);
 }
 
 header {
-    background-color: var(--primary-color); /* Cor primária para o cabeçalho */
+    background-color: var(--primary-color);
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -36,14 +36,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: var(--accent1-color); /* Usando a cor de destaque 1 para os links */
+    color: var(--accent1-color);
     text-decoration: none;
     font-family: 'Reenie Beanie', cursive;
     font-size: 1.2em;
 }
 
 nav ul li a:hover {
-    color: var(--accent2-color); /* Mudar cor no hover */
+    color: var(--accent2-color);
 }
 
 .hero {
@@ -63,7 +63,7 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Amarante', cursive;
-    color: var(--accent2-color); /* Usando cor de destaque 2 para o título */
+    color: var(--accent2-color);
     font-size: 3em;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
@@ -91,7 +91,7 @@ section {
 }
 
 section h2 {
-    color: var(--primary-color); /* Usando a cor primária para os subtítulos */
+    color: var(--primary-color);
 }
 
 footer {
