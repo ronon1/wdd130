@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Whitewater Adventures</title>
+    <meta name="description" content="Get in touch with Whitewater Adventures for inquiries about rafting trips, bookings, and more.">
+    <link rel="stylesheet" href="styles/raftings.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amarante&family=Reenie+Beanie&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Logo da Empresa de Rafting" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-info">
+            <h2>Contact Us</h2>
+            <p>Address: Estrada Agua Chata, 3009 - Guarulhos-SP - Brazil</p>
+            <p>Phone: +55 11 96894-2012</p>
+            <p>Email: info@whitewateradventures.com</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.6996702077495!2d-46.40292802489503!3d-23.435213778886734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce628766b01181%3A0x6819984ce8f73364!2sEstr.%20%C3%81gua%20Chata%2C%203009%20-%20%C3%81gua%20Chata%2C%20Guarulhos%20-%20SP%2C%2008583-370!5e0!3m2!1spt-BR!2sbr!4v1729257170512!5m2!1spt-BR!2sbr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section class="team">
+            <h3>Meet Our Team</h3>
+            <figure>
+                <img src="images/foto-sharon.webp" alt="Employee 1" class="team-member">
+                <figcaption>Sharon Alves - Rafting Guide</figcaption>
+            </figure>
+            <figure>
+                <img src="images/mae.webp" alt="Employee 2" class="team-member">
+                <figcaption>Josilma Alves - Customer Service</figcaption>
+            </figure>
+            <figure>
+                <img src="images/foto-eu-2.webp" alt="Employee 3" class="team-member">
+                <figcaption>Renan Alves - Adventure Coordinator</figcaption>
+            </figure>
+        </section>
+
+        <section class="contact-form">
+            <h3>Send Us a Message</h3>
+            <form action="#" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="purpose">Purpose of Message:</label>
+                <div>
+                    <input type="radio" id="general" name="purpose" value="General Inquiry">
+                    <label for="general">General Inquiry</label><br>
+                    <input type="radio" id="booking" name="purpose" value="Booking">
+                    <label for="booking">Booking</label><br>
+                    <input type="radio" id="suggestion" name="purpose" value="Suggestion">
+                    <label for="suggestion">Suggestion</label>
+                </div>
+                
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <div>
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                </div>
+                
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Whitewater Adventures - Renan de Freitas Alves.</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com"><img src="images/facebook-icon.png" alt="Facebook"></a>
+            <a href="https://twitter.com"><img src="images/twitter-icon.png" alt="Twitter"></a>
+            <a href="https://instagram.com"><img src="images/instagram-icon.png" alt="Instagram"></a>
+        </nav>
+    </footer>
+</body>
+</html>

@@ -23,6 +23,7 @@ header {
 	align-items: center;
 	border-bottom: 5px solid #ccc;
 	max-width: 1000px;
+    border-radius: .5rem;
 }
 
 
@@ -31,7 +32,10 @@ header {
     margin: 10 0.25rem 0 1rem;
 	width: 350px;
 	height: auto;
+    border-radius: .5rem;
 }
+
+
 nav {
 	text-align: right;
     font-size: 35px;
@@ -53,6 +57,7 @@ nav ul li a {
     text-decoration: none;
     font-family: 'Reenie Beanie', cursive;
     font-size: 1.2em;
+    border-radius: .5rem;
 }
 
 nav ul li a:hover {
@@ -68,11 +73,12 @@ nav ul li a:hover {
     display: block;
     width: 100%;
     height: auto;
+    border-radius: .5rem;
 }
 
 h1 {
     position: absolute;
-    top: 50%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Amarante', cursive;
@@ -83,17 +89,32 @@ h1 {
 
 article {
     position: absolute;
-    bottom: 20px;
-    left: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
+    bottom: 40px;
+    left: 2000px;
+    background-color: rgba(0, 0, 0, 0.3);
     padding: 15px;
     border-radius: 8px;
+    text-align: left;
+}
+
+.imagem-article {
+    width: 40%;
+    height: auto;
+    margin-left: 20px;  
 }
 
 .happy-client {
-    float: right;
-    width: 100px;
-    margin-left: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(100, 0, 0, 0.3);
+    padding: 50px
+    text-align: right;
+    border-radius: 8px;
+    width: 80%;
+    box-sizing: border-box;
 }
 
 
@@ -102,6 +123,7 @@ article {
     background-color: var(--accent1-color);
     border-radius: 8px;
     margin: 20px 0;
+    border-radius: .5rem;
 }
 
 .history h2 {
@@ -111,7 +133,8 @@ article {
     color: var(--primary-color);
     margin-bottom: 20px;
     position: relative;
-    z-index: 1;   
+    z-index: 1;
+    border-radius: .5rem;
 }
 
 .adventure-title {
@@ -121,7 +144,9 @@ article {
     z-index: 1;
     margin: 20px 0;
     width: 100%;
+    border-radius: .5rem;
 }
+
 
 .adventures {
     display: flex;
@@ -129,19 +154,22 @@ article {
     justify-content: space-between;
     align-items: flex-start;
     padding: 20px;
+    border-radius: .5rem;
 }
 
 .adventures figure {
     margin: 10px;
     text-align: center;
     flex: 1 1 200px;
+    border-radius: .5rem;
 }
 
 .adventures img {
     width: 100%;
     max-width: 200px;
     height: auto;
-    border-radius: 8px;
+    border-radius: .5rem;
+    
 }
 
 
@@ -164,6 +192,8 @@ footer {
     padding: 1px;
     position: relative;
     font-size: 20px;
+    border-radius: .5rem;
+    
 }
 
 footer p {
@@ -173,6 +203,7 @@ footer p {
 .sociallinks {
     text-align: right;
     margin-top: 10px;
+    
 }
 
 .sociallinks a {
@@ -182,4 +213,78 @@ footer p {
 
 .sociallinks img {
     width: 30px;
+}
+
+
+
+
+.contact-info {
+    padding: 20px;
+    background-color: var(--accent1-color);
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.team figure {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.team-member {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.team img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid var(--primary-color);
+}
+
+
+.contact-form {
+    padding: 20px;
+    background-color: var(--accent1-color);
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.contact-form .submit-button {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.contact-form .submit-button:hover {
+    background-color: var(--accent2-color);
 }
